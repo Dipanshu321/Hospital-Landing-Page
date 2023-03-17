@@ -1,0 +1,123 @@
+.subscription_section{
+    height: 87vh;
+    background-image: url(./images/bg-image.jpg);
+    background-position: bottom;
+    background-size: 295vh 154vh;;
+    background-repeat: no-repeat;
+}
+
+.subscription_container{
+    background: #007FF4;
+    border-radius: 20px;
+    width: 55%;
+    height: 57vh;
+    position: relative;
+    top: 4rem;
+    left: 18rem;
+}
+.subscription_container h2{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 78px;
+    text-align: center;
+    /* margin-top: 13px; */
+    padding-top: 25px;
+    color: #FFFFFF;
+}
+
+.subscription_container p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+}
+
+.subscription_container input{
+    width: 73%;
+    height: 11vh;
+    position: relative;
+    top: 2rem;
+    left: 6rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+}
+.subscription_container button{
+    position: relative;
+    top: 2rem;
+    right: 2rem;
+    width: 14%;
+    background: #007FF4;
+    border-radius: 37px;
+    height: 7vh;
+    border-color: #007FF4;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+
+/* <<<<< BOTTOM NAVBAR >>>>> */
+
+
+
+.bottom_navbar{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    top: 8rem;
+    left: 0rem;
+}
+.bottom_navbar a{
+    text-decoration: none;
+    position: absolute;
+    top: calc(37% - 35px/2);
+    margin-left: 10rem;
+    height: 20px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    line-height: 20px;
+    color: #0073FF;
+}
+
+#home{
+    left: 42%;
+    right: 87.5%;
+    font-weight: 700;
+}
+
+#about{
+    left: 51.57%;
+    right: 59.23%;
+    font-weight: 400;
+}
+
+#services{
+    width: 5%;
+    left: 60.85%;
+    right: 26.49%;
+    font-weight: 400;
+}
+
+#news{
+    width: 3%;
+    left: 71.99%;
+    right: 0%;
+    font-weight: 400;
+}
+
+.bottom_navbar img{
+    position: absolute;
+    bottom: 3rem;
+    right: 69rem;
+    top: 1rem;
+}

@@ -1,0 +1,74 @@
+.testomonial_section{
+    background-color: #F8FDFF;
+    height: 88vh;
+}
+
+
+.testomonial_section h1{
+    position: relative;
+    top: 4rem;
+    right: 23rem;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+    color: #003B79;
+}
+
+.testomonial_card_container{
+    overflow: hidden;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    width: 43%;
+    height: 47vh;
+    margin: 40px;
+    float: left;
+    position: relative;
+    top: 6rem;
+
+}
+
+.testomonial_card_container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+}
+
+.testomonial_card_container h4{
+    position: relative;
+    top: 0rem;
+    left: 19px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+}
+.testomonial_card_container h5{
+    position: relative;
+    top: 1rem;
+    left: 19px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #002348;
+}
+.testomonial_card_container p{
+    position: relative;
+    top: 0rem;
+    width: 96%;
+    left: 1rem;
+    color: #002348;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.testomonial_card_container img{
+    width: 13%;
+    position: relative;
+    top: 6px;
+    left: 31rem;
+}

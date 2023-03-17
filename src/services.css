@@ -1,0 +1,221 @@
+.services_section_1{
+    background-color: #F2F2F2;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Source Sans Pro';
+    color: #003B79;
+    text-align: center;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+}
+
+.services_para{
+    width: 34rem;
+    left: 25rem;
+    position: absolute;
+}
+
+.services_para p{
+    font-family: 'Source Sans Pro';
+    margin-top: 15px;
+    color: #002348;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+    margin-top: 9rem;
+
+}
+
+
+
+/* <<<<< SERVICES SECTION 2 >>>>> */
+
+
+
+.services_section_2{
+    height: 116vh;
+    background-color: #FFFFFF; 
+}
+
+.container{
+    display: inline-block;
+    width: 39%;
+    position: relative;
+    top: 11rem;
+    left: 4rem;
+}
+
+.container h2{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 78px;
+    color: #003B79;
+}
+.container p{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 39px;
+    color: #002348;
+    margin-top: 28px;
+}
+.container button{
+    background: #007FF4;
+    border-radius: 30px;
+    width: 166px;
+    height: 50px;
+    margin-top: 35px;
+    border-color: #007FF4;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.doctor_woman{
+    display: inline-block;
+    width: 227px;
+    height: 189px;
+    position: relative;
+    top: 6rem;
+    left: 14rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+}
+.doctor_woman img{
+    position: relative;
+    bottom: 8rem;
+    left: 53px;
+    width: 129px;
+    height: 175px;
+}
+.doctor_woman h5{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+    -webkit-text-decorations-in-effect: overline;
+    position: relative;
+    top: 9rem;
+    left: 2rem;
+}
+
+
+.doctor_man{
+    display: inline-block;
+    width: 227px;
+    height: 189px;
+    position: relative;
+    top: 18rem;
+    left: 14rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+}
+.doctor_man img{
+    position: relative;
+    bottom: 9rem;
+    left: 1rem;
+    width: 196px;
+    height: 177px;
+}
+.doctor_man h5{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+    -webkit-text-decorations-in-effect: overline;
+    position: relative;
+    top: 9rem;
+    left: 2rem;
+}
+
+.doctor_van{
+    display: inline-block;
+    width: 227px;
+    height: 189px;
+    position: relative;
+    top: 31rem;
+    right: 15rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+}
+.doctor_van img{
+    position: relative;
+    bottom: 8rem;
+    left: 1rem;
+    width: 190px;
+    height: 200px;
+}
+.doctor_van h5{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+    -webkit-text-decorations-in-effect: overline;
+    position: relative;
+    top: 9rem;
+    left: 2rem;
+}
+
+
+
+
+/* <<<<< SERVICES SECTION 3 >>>>> */
+
+
+.services_section_3{
+    height: 107vh;
+    background-image: url(./images/bg-image.jpg);
+    background-position: bottom;
+    background-size: 295vh 154vh;;
+    background-repeat: no-repeat;
+}
+.services_section_3 h2{
+    font-family: 'Source Sans Pro';
+    color: #003B79;
+    text-align: center;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 78px;
+}
+.section_3_para{
+    width: 34rem;
+    left: 25rem;
+    position: absolute;
+}
+.section_3_para p{
+    font-family: 'Source Sans Pro';
+    margin-top: 15px;
+    color: #002348;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.section_3_cards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+    margin-top: 9rem;
+}

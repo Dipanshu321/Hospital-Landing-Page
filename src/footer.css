@@ -1,0 +1,23 @@
+.footer_section{
+    background-color: #ECF4FF;
+    height: 24vh;
+}
+.footer_section p{
+    font-family: '';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 34px;
+    position: relative;
+    top: 3rem;
+    left: 5rem;
+}
+
+.footer_logo img{
+    width: 4rem;
+}
+.footer_logo{
+    display: inline-block;
+    top: 2rem;
+    position: relative;
+    left: 4rem;
+}

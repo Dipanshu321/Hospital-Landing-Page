@@ -1,0 +1,163 @@
+.homepage_section {
+    height: 107vh;
+    background-image: url(./images/bg-image.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* <<<<< FOR NAVBAR COMPONENT >>>>> */
+
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+.navbar a{
+    text-decoration: none;
+    position: absolute;
+    top: calc(6% - 35px/2);
+    height: 20px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    line-height: 20px;
+    color: #0073FF;
+}
+
+#home{
+    left: 42%;
+    right: 87.5%;
+    font-weight: 700;
+}
+
+#about{
+    left: 51.57%;
+    right: 59.23%;
+    font-weight: 400;
+}
+
+#services{
+    width: 5%;
+    left: 60.85%;
+    right: 26.49%;
+    font-weight: 400;
+}
+
+#news{
+    width: 3%;
+    left: 71.99%;
+    right: 0%;
+    font-weight: 400;
+}
+#contact {
+    position: absolute;
+    display: inline-block;
+    left: 80.99%;
+    right: 0%;
+    top: calc(5% - 35px/2);
+    background-color: #0073FF;
+    width: 9%;
+    height: 37px;
+    border-radius: 38px;
+    border-color: #0073FF;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#contact a {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: #FFFFFF;
+    padding: 7px;
+}
+.logo {
+    position: absolute;
+    top: 14px;
+    left: 60px;
+}
+
+
+/* <<<<< FOR HOME PAGE CONTAINER >>>>> */
+
+.homepage_container{
+    display: flex;
+    flex-direction: column;
+    width: 32rem;
+    position: absolute;
+    top: 13rem;
+    left: 59px;
+}
+
+.homepage_container h1{
+    font-family: 'Source Sans Pro';
+    text-align:justify;
+    margin-bottom: 25px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+    color: #003B79;
+}
+
+.homepage_container h5{
+    font-family: 'Source Sans Pro';
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #002348;
+}
+
+.homepage_container p{
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #002348;;
+}
+
+.appointment_btn{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    position: absolute;
+    top: 18rem;
+    width: 48%;
+    height: 16%;
+    background-color: #007FF4;
+    color: #FFFFFF;
+    border-radius: 21px;
+    border-color: #007FF4;
+    cursor: pointer;
+}
+
+.dept_btn{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    position: absolute;
+    top: 18rem;
+    left: 16.5rem;
+    width: 48%;
+    height: 16%;
+    border-radius: 21px;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #007FF4;
+    cursor: pointer;
+}
+.blank_container{
+    position: absolute;
+    top: 7rem;
+    width: 30%;
+    height: 85%;
+    left: 55rem;
+    background-color: #EBEEFF;
+    border-radius: 32px;
+}
